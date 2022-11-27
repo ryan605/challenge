@@ -1,0 +1,19 @@
+{
+  "name": "challange-code",
+  "version": "1.0.0",
+  "description": "grade generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryan605/challenge.git"
+  },
+  "author": "Ryan Langat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryan605/challenge/issues"
+  },
+  "homepage": "https://github.com/ryan605/challenge#readme"
+}
