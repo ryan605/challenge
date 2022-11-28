@@ -10,4 +10,4 @@ function speedLimit(speed)
         console.log(`points: ${points}`)
     }
 }
-speedLimit("280")
+speedLimit("187");

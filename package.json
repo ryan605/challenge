@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ryan605/challenge/issues"
   },
-  "homepage": "https://github.com/ryan605/challenge#readme"
+  "homepage": "https://github.com/ryan605/challenge#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
 }

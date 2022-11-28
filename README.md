@@ -9,4 +9,7 @@ If the speed is above the speed limit it gives a demerit point,1 demerit point i
 It the gives total demerit points, and above 12 demerit points it outputs "lisence suspended"
 
 iii)Net salary calculator
-This program calculates the net salary 
+This program calculates the total deductions,tax payable and payee
+also prompts user to enter their salary amount,contribution amount,NSSF and NHIF deductions.
+ "author": "Ryan Langat",
+  "license": "ISC",
