@@ -1,6 +1,6 @@
 const prompt=require("prompt-sync")();
 function calculateSalary(personalRelief,totDeduct,contributionBenefit,NHIF,NSSF,grossSalary,taxableIncome)
-g
+
 {
 let payee;
 personalRelief= +2400;
