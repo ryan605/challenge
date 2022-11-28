@@ -1,4 +1,5 @@
-console.log(studentMarks(500))
+
+console.log(studentMarks())
 function studentMarks(marks){
     if(marks >79 && marks <100){
       
@@ -26,4 +27,3 @@ function studentMarks(marks){
     }else return 'not valid'
               
 }
-
