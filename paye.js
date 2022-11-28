@@ -1,16 +1,15 @@
 const prompt=require("prompt-sync")();
-function calculateSalary(personalRelief,totDeduct,contributionBenefit,NHIF,NSSF,grossSalary,taxableIncome)
+function calculateSalary(personalRelief,totDeduct,NHIF,NSSF,grossSalary,taxableIncome)
 
 {
 let payee;
 personalRelief= +2400;
 grossSalary= +prompt("enter salary amount")
-contributionBenefit= +prompt("enter contribution amount")
 NHIF= +prompt("enter NHIF deductions")
 NSSF= +prompt("enter NSSF deductions")
 
-totDeduct=(contributionBenefit+ NSSF+ personalRelief+ NHIF)
-taxableIncome=(grossSalary-totalDedactions);
+totDeduct=(NSSF+ personalRelief+ NHIF)
+taxableIncome=(grossSalary-totDeduct);
 
 console.log(`Your taxable income is Ksh:${taxableIncome}`)
 console.log(`Your total dedactions is Ksh:${totDeduct}`)
