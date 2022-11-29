@@ -1,7 +1,7 @@
 
-console.log(studentMarks())
+console.log(studentMarks(100))
 function studentMarks(marks){
-    if(marks >79 && marks <100){     
+    if(marks >79 && marks <=100){     
       return `A` // A grade block
     }
     else if(marks >=60 && marks <=79){
